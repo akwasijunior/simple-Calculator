@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+body{
+    background-color:grey;
+}
+
+.container{
+    width:20rem;
+    height: 30rem;
+    margin: 9rem auto;
+    background-color: whitesmoke;
+   
+}
+
+.screen{
+position: relative;
+
+top: 140px;
+}
+
+
+
+.screen .ResultScreen{
+    width: 100%;
+    height: 2.5rem;
+    background-color: whitesmoke;
+    border-style: none;
+    text-align: right;
+    font-size:xx-large;
+    color: black;
+    padding: 5px;
+
+}
+
+.calculatorBod{
+margin-top: 9px;
+}
+
+
+
+
+.numpads{
+    margin-top: 9rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5rem;
+    padding: 0.3rem;
+    
+}
+
+.buttons{
+   
+    
+    text-align: center;
+    height: 2.8rem;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+            box-shadow:
+          0 1px 1px hsl(0deg 0% 0% / 0.075),
+          0 2px 2px hsl(0deg 0% 0% / 0.075),
+          0 4px 4px hsl(0deg 0% 0% / 0.075),
+          0 8px 8px hsl(0deg 0% 0% / 0.075),
+          0 16px 16px hsl(0deg 0% 0% / 0.075)
+        ;
+    
+  
+}
+.buttons:hover{
+    background-color:whitesmoke ;
+}
+
+.equals{
+    background-color: #6ac5fe;
+    color: white;
+}
+ 
+.equals:hover{
+    background-color: hsl(203, 82%, 78%);
+}
